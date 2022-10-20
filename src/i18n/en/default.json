@@ -1,0 +1,7 @@
+{
+  "authentication": {
+    "sign-in": "SIGN IN",
+    "sign-up": "Sign Up",
+    "wellcome": "Welcome back to React App"
+  }
+}

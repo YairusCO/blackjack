@@ -1,0 +1,7 @@
+{
+  "authentication": {
+    "sign-in": "s'identifier",
+    "sign-up": "S'inscrire",
+    "wellcome": "Bienvenue dans l'assistant de tarification de React App"
+  }
+}
