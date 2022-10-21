@@ -1,9 +1,12 @@
 import { useEffect } from 'react'
 import { Router, Switch, Route } from 'react-router'
 import history from '../../services/history'
-import { HOME, LOGIN } from '../../util/routes'
+import { HOME, LOGIN, GAME } from '../../util/routes'
 import Login from '../Login'
 import Home from '../Home'
+import Game from '../Game'
+import Layout from '../Layout'
+
 const App = ({ appMounted, appWillUnmount, value, changeValue, t }) => {
   useEffect(() => {
     appMounted()
@@ -13,16 +16,14 @@ const App = ({ appMounted, appWillUnmount, value, changeValue, t }) => {
   }, [appMounted, appWillUnmount])
 
   return (
-    <div className='App'>
-      {t('authentication.wellcome')}
-      <div>
-        {value}
-        <button onClick={changeValue}>Change Value</button>
-      </div>
+    <div className="App">
       <Router history={history}>
         <Switch>
-          <Route exact path={HOME} component={Home} />
-          <Route exact path={LOGIN} component={Login} />
+          <Layout>
+            <Route exact path={HOME} component={Home} />
+            <Route exact path={GAME} component={Game} />
+            <Route exact path={LOGIN} component={Login} />
+          </Layout>
         </Switch>
       </Router>
     </div>

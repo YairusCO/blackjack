@@ -1,0 +1,19 @@
+{
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "window.zoomLevel": 1,
+  "explorer.openEditors.visible": 0,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "semi": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

@@ -1,0 +1,75 @@
+.help-dialog {
+  .paper {
+    width: 640px;
+    padding-top: 44px;
+  }
+  .close-icon {
+    font-size: 13px;
+  }
+  .titleDialog {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.003px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4a4a4a;
+  }
+  .subtitleDialog {
+    margin-bottom: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #595959;
+    text-align: center;
+  }
+
+  & > div {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #b0b0b0;
+    padding: 14px 12px 15px;
+    text-align: center;
+  }
+
+  .text-field {
+    margin-bottom: 10px;
+
+    .MuiOutlinedInput-root {
+      width: 350px;
+    }
+    & > div {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 120%;
+      letter-spacing: 0.01em;
+      color: #b0b0b0;
+    }
+  }
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #dfe5e4 !important;
+    border-width: 1px !important;
+  }
+
+  .text-field-five-rows {
+    .MuiOutlinedInput-root {
+      height: 127px;
+    }
+  }
+
+  .MuiButton-root {
+    padding: 2px 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+  }
+}

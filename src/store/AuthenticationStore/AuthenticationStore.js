@@ -5,8 +5,8 @@ import {
   configure,
   runInAction,
 } from 'mobx'
-import history from '../../services/history'
-import { LOGIN } from '../../util/routes'
+// import history from '../../services/history'
+// import { LOGIN } from '../../util/routes'
 import { dispatch, subscribe } from '../../services/pubsub'
 import Actions from '../../util/actions.js'
 import logger from '../../services/logger'
@@ -16,7 +16,7 @@ import isEmail from 'validator/lib/isEmail'
 configure({ enforceActions: 'observed' })
 
 class AuthenticationStore {
-  doesUserAuthenticated = false
+  doesUserAuthenticated = true
   userInfo = {}
   value = 1
 
@@ -95,7 +95,7 @@ class AuthenticationStore {
   /* @action */
   verifyUserAuthenticated() {
     if (!this.doesUserAuthenticated) {
-      history.push(LOGIN)
+      // history.push(LOGIN)
     }
   }
 }

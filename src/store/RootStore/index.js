@@ -1,5 +1,6 @@
 import RootStore from './RootStore'
 import AuthenticationStore from '../AuthenticationStore'
+import GamePlayStore from '../GamePlayStore'
 
 import storage from '../../services/storage'
 import apis from '../../services/apis.js'
@@ -18,4 +19,5 @@ export default new RootStore({
     whenLoginRouteUrl: '/',
     logoutUrl: '/login',
   }),
+  gamePlayStore: new GamePlayStore(),
 })

@@ -29,11 +29,18 @@ const httpActions = Object.freeze(
     USER_LOGGED_IN: null,
   }),
 )
+const initGameAction = Object.freeze(
+  keyMirror({
+    INIT_GAME: null,
+
+  }),
+)
 
 export const Actions = {
   ...appActions,
   ...userActions,
   ...httpActions,
   ...routeActions,
+  ...initGameAction,
 }
 export default Actions

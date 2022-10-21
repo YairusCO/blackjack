@@ -13,6 +13,7 @@ class RootStore {
     window,
     TOKEN_KEYWORD,
     authenticationStore,
+    gamePlayStore,
   }) {
     makeObservable(this, {
       appMounted: action,
@@ -26,6 +27,7 @@ class RootStore {
     this.TOKEN_KEYWORD = TOKEN_KEYWORD
 
     this.authenticationStore = authenticationStore
+    this.gamePlayStore = gamePlayStore
 
     this.authenticationStore.rootStore = this
     this.logout = this.logout.bind(this)
