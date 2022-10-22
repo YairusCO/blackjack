@@ -1,0 +1,30 @@
+.initial-deal {
+  flex-direction: column !important;
+  -webkit-flex-direction: column;
+  .chip {
+    width: 100px;
+  }
+
+  .count-btn {
+    position: relative;
+    .count-txt {
+      position: absolute;
+      // font-family: 'CasinoItalic';
+      color: #000000ab;
+      font-size: 17px;
+    }
+    .count-chip {
+      width: 136px;
+      // position: absolute;
+    }
+  }
+  .main-btn-container {
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+
+    .bank {
+      margin-bottom: 10px;
+    }
+  }
+}

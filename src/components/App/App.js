@@ -7,7 +7,7 @@ import Home from '../Home'
 import Game from '../Game'
 import Layout from '../Layout'
 
-const App = ({ appMounted, appWillUnmount, value, changeValue, t }) => {
+const App = ({ appMounted, appWillUnmount, t }) => {
   useEffect(() => {
     appMounted()
     return () => {

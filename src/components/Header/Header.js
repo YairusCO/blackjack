@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button, Grid, AppBar, Toolbar } from '@mui/material'
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline'
-import HelpDialog from './HelpDialog'
 import { ReactComponent as Logo } from '../../assets/logo.svg'
 
 import { Link } from 'react-router-dom'
@@ -21,7 +20,6 @@ const Header = () => {
           </Button>
         </Grid>
       </Toolbar>
-      {false && <HelpDialog />}
     </AppBar>
   )
 }

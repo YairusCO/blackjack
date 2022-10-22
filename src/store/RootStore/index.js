@@ -1,5 +1,4 @@
 import RootStore from './RootStore'
-import AuthenticationStore from '../AuthenticationStore'
 import GamePlayStore from '../GamePlayStore'
 
 import storage from '../../services/storage'
@@ -11,13 +10,6 @@ export default new RootStore({
   router,
   storage,
   window,
-  authenticationStore: new AuthenticationStore({
-    doesUserAuthenticated: false,
-    token: null,
-    username: '',
-    password: '',
-    whenLoginRouteUrl: '/',
-    logoutUrl: '/login',
-  }),
+
   gamePlayStore: new GamePlayStore(),
 })

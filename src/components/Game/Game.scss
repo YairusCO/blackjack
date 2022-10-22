@@ -1,0 +1,14 @@
+.game {
+  .game-container {
+    background: url(../../assets/casiono-background.jpg) no-repeat center center
+      fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    flex-direction: column;
+    position: fixed;
+    justify-content: space-between;
+  }
+}

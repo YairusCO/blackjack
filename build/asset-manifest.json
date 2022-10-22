@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c78a715.chunk.css",
-    "main.js": "/static/js/main.fa5b87ed.chunk.js",
-    "main.js.map": "/static/js/main.fa5b87ed.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.54a8efc2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.54a8efc2.js.map",
-    "static/js/2.86b00f65.chunk.js": "/static/js/2.86b00f65.chunk.js",
-    "static/js/2.86b00f65.chunk.js.map": "/static/js/2.86b00f65.chunk.js.map",
-    "static/js/3.82e18d9f.chunk.js": "/static/js/3.82e18d9f.chunk.js",
-    "static/js/3.82e18d9f.chunk.js.map": "/static/js/3.82e18d9f.chunk.js.map",
+    "main.css": "/static/css/main.4dc8a0fd.chunk.css",
+    "main.js": "/static/js/main.754b4f1f.chunk.js",
+    "main.js.map": "/static/js/main.754b4f1f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8188a504.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8188a504.js.map",
+    "static/js/2.4361a14d.chunk.js": "/static/js/2.4361a14d.chunk.js",
+    "static/js/2.4361a14d.chunk.js.map": "/static/js/2.4361a14d.chunk.js.map",
+    "static/js/3.b4793b99.chunk.js": "/static/js/3.b4793b99.chunk.js",
+    "static/js/3.b4793b99.chunk.js.map": "/static/js/3.b4793b99.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5c78a715.chunk.css.map": "/static/css/main.5c78a715.chunk.css.map",
-    "static/js/2.86b00f65.chunk.js.LICENSE.txt": "/static/js/2.86b00f65.chunk.js.LICENSE.txt"
+    "static/css/main.4dc8a0fd.chunk.css.map": "/static/css/main.4dc8a0fd.chunk.css.map",
+    "static/js/2.4361a14d.chunk.js.LICENSE.txt": "/static/js/2.4361a14d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Casino-Italic.adddedde.ttf",
+    "static/media/black100chip.60033315.png": "/static/media/black100chip.60033315.png",
+    "static/media/Game.scss": "/static/media/casiono-background.e727439c.jpg",
+    "static/media/gold-chip.7d9f0a10.png": "/static/media/gold-chip.7d9f0a10.png",
+    "static/media/green20chip.07ae75c2.png": "/static/media/green20chip.07ae75c2.png",
+    "static/media/linkedin-logo.7c3617d1.svg": "/static/media/linkedin-logo.7c3617d1.svg",
+    "static/media/logo.7e0df320.svg": "/static/media/logo.7e0df320.svg",
+    "static/media/red50chip.cd8b1f2e.png": "/static/media/red50chip.cd8b1f2e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.54a8efc2.js",
-    "static/js/2.86b00f65.chunk.js",
-    "static/css/main.5c78a715.chunk.css",
-    "static/js/main.fa5b87ed.chunk.js"
+    "static/js/runtime-main.8188a504.js",
+    "static/js/2.4361a14d.chunk.js",
+    "static/css/main.4dc8a0fd.chunk.css",
+    "static/js/main.754b4f1f.chunk.js"
   ]
 }

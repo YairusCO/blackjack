@@ -1,4 +1,3 @@
-import './services'
 import React, { Suspense } from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'mobx-react'
@@ -26,7 +25,7 @@ ReactDOM.render(
       </Suspense>
     </I18nextProvider>
   </React.StrictMode>,
-  document.getElementById('root'),
+  document.getElementById('root')
 )
 
 // If you want to start measuring performance in your app, pass a function

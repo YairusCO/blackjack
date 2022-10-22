@@ -4,11 +4,7 @@ import { withTranslation } from 'react-i18next'
 import App from './App'
 import './App.scss'
 
-export default inject(
-  ({ appMounted, appWillUnmount, authenticationStore }) => ({
-    appMounted,
-    appWillUnmount,
-    changeValue: authenticationStore.changeValue,
-    value: authenticationStore.value,
-  })
-)(observer(withTranslation()(App)))
+export default inject(({ appMounted, appWillUnmount }) => ({
+  appMounted,
+  appWillUnmount,
+}))(observer(withTranslation()(App)))
