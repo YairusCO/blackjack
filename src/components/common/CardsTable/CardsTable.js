@@ -9,7 +9,7 @@ const CardsTable = ({ isPlayer, amount, cards, hit, stand, isHid }) => {
     <Grid container className="cards-table">
       <Grid>
         <Grid>
-          {isPlayer ? 'player' : 'dealer'}
+          <Grid className="card-title">{isPlayer ? 'player' : 'dealer'}</Grid>
           {isPlayer && (
             <Grid className="card-table-btn">
               <MainBtn
