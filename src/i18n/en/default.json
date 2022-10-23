@@ -1,7 +1,8 @@
 {
-  "authentication": {
-    "sign-in": "SIGN IN",
-    "sign-up": "Sign Up",
-    "wellcome": "Welcome back to React App"
-  }
+  "you-win": "You Win!",
+  "you-busted!": "You Busted!",
+  "push": "Push!",
+  "back": "Back",
+  "deal": "Deal",
+  "all-in": "All In"
 }

@@ -13,11 +13,11 @@ const Game = ({ isInitialDeal, playerStatus, reset }) => {
         {isInitialDeal && <InitialDeal />}
         {!isInitialDeal && <Table />}
       </Grid>
-      {playerStatus === WIN && <PopUpDialog text={'You Win!'} reset={reset} />}
+      {playerStatus === WIN && <PopUpDialog text={'you-win!'} reset={reset} />}
       {playerStatus === BUSTED && (
-        <PopUpDialog text={'You Busted!'} reset={reset} />
+        <PopUpDialog text={'you-busted'} reset={reset} />
       )}
-      {playerStatus === PUSH && <PopUpDialog text={'Push!'} reset={reset} />}
+      {playerStatus === PUSH && <PopUpDialog text={'push'} reset={reset} />}
     </div>
   )
 }

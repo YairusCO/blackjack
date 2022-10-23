@@ -4,8 +4,6 @@ import { withTranslation } from 'react-i18next'
 import { inject, observer } from 'mobx-react'
 
 export default inject(({ gamePlayStore }) => ({
-  playerBank: gamePlayStore.playerBank,
-  playerDealCount: gamePlayStore.playerDealCount,
   isInitialDeal: gamePlayStore.isInitialDeal,
   getDeal: gamePlayStore.getDeal,
   playerCards: gamePlayStore.playerCards,

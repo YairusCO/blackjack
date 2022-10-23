@@ -76,7 +76,7 @@ class GamePlayStore {
         this.dealerCards[1],
         this.dealerCardsAmount
       )
-      this.dealerCardsAmountHid = this.calcCardsAmount(this.dealerCards[1], 0)
+      this.dealerCardsAmountHid = this.calcCardsAmount(this.dealerCards[0], 0)
     }
 
     this.playerCardsAmount = this.calcCardsAmount(this.playerCards[0], 0)
@@ -207,6 +207,7 @@ class GamePlayStore {
     this.playerCardsAmount = null
     this.isInitialDeal = true
     this.playerStatus = PLAYING
+    this.isHid = true
   }
 
   resetCount = () => {

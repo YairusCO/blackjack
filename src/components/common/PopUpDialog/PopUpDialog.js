@@ -3,7 +3,7 @@ import { Paper, Fade, Modal, IconButton, Grid, Typography } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
 import ribbon from '../../../assets/ribbon.png'
 import MainBtn from '../MainBtn'
-const PopUpDialog = ({ text, reset }) => {
+const PopUpDialog = ({ text, reset, t }) => {
   const [open, setOpen] = useState(true)
 
   return (
@@ -14,7 +14,6 @@ const PopUpDialog = ({ text, reset }) => {
       className="pop-up-dialog"
       open={open}
       onClose={() => {
-        // e.stopPropagation()
         setOpen(false)
         reset()
       }}
@@ -38,11 +37,11 @@ const PopUpDialog = ({ text, reset }) => {
           <Grid className="main-container">
             <img className={`ribbon ${text}`} src={ribbon} alt="ribbon" />
             <Grid className="txt-container">
-              <Typography className="main-txt">{text}</Typography>
+              <Typography className="main-txt">{t(`${text}`)}</Typography>
             </Grid>
             <Grid>
               <MainBtn
-                text={'Back'}
+                text={t('back')}
                 handleClick={() => {
                   reset()
                 }}

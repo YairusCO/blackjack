@@ -5,6 +5,7 @@ import black from '../../../assets/black100chip.png'
 import green from '../../../assets/green20chip.png'
 import red from '../../../assets/red50chip.png'
 import gold from '../../../assets/gold-chip.png'
+import { t } from 'i18next'
 
 const InitialDeal = ({
   playerBank,
@@ -21,13 +22,13 @@ const InitialDeal = ({
         <Grid item container className="main-btn-container">
           <MainBtn text={`bank: ${playerBank}$`} classname={'bank'} />
           <MainBtn
-            text="All in"
+            text="All In"
             handleClick={() => addMoney(playerBank)}
             classname={'all-in'}
           />
           <MainBtn
             disabled={!!playerDealCount}
-            text={'Deal'}
+            text={t('deal')}
             handleClick={() => {
               newGame()
               getDeal(!isInitialDeal)
