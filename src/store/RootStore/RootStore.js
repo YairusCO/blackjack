@@ -24,9 +24,7 @@ class RootStore {
   register() {}
 
   appMounted() {
-    debugger
     dispatch(Actions.APPLICATION_MOUNTED)
-
     logger.log('App mounted')
   }
 

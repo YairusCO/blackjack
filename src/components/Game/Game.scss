@@ -1,4 +1,5 @@
 .game {
+  max-width: 1336px;
   .game-container {
     background: url(../../assets/casiono-background.jpg) no-repeat center center
       fixed;
@@ -8,7 +9,8 @@
     background-size: cover;
     height: 700px;
     flex-direction: column;
-    position: fixed;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
 }

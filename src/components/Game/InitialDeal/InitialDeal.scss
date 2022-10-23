@@ -1,6 +1,16 @@
 .initial-deal {
+  align-items: center;
+  .initial-deal-top {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
   flex-direction: column !important;
   -webkit-flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 97px;
   .chip {
     width: 100px;
   }
@@ -9,13 +19,11 @@
     position: relative;
     .count-txt {
       position: absolute;
-      // font-family: 'CasinoItalic';
       color: #000000ab;
       font-size: 17px;
     }
     .count-chip {
       width: 136px;
-      // position: absolute;
     }
   }
   .main-btn-container {
@@ -23,8 +31,9 @@
     width: fit-content;
     height: fit-content;
 
-    .bank {
+    button {
       margin-bottom: 10px;
+      width: 140px;
     }
   }
 }

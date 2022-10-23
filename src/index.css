@@ -2,6 +2,10 @@
   font-family: 'CasinoItalic';
   src: url(./assets/Casino-Italic.ttf);
 }
+@font-face {
+  font-family: 'times';
+  src: url(./assets/times-new-roman.ttf);
+}
 body {
   margin: 0;
   font-family: 'CasinoItalic';

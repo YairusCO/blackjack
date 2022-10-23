@@ -1,11 +1,18 @@
 import React from 'react'
-import { Typography } from '@mui/material'
+import { Button } from '@mui/material'
 
-const MainBtn = ({ text, classname, handleClick }) => {
+const MainBtn = ({ text, classname, handleClick, disabled = true }) => {
   return (
-    <button className={`main-btn ${classname}`} onClick={handleClick}>
-      <Typography>{text}</Typography>
-    </button>
+    <Button
+      disabled={!disabled}
+      className={`main-btn ${classname}`}
+      onClick={handleClick}
+      variant="contained"
+      size="large"
+      inherit
+    >
+      {text}
+    </Button>
   )
 }
 

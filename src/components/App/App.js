@@ -1,9 +1,7 @@
 import { useEffect } from 'react'
 import { Router, Switch, Route } from 'react-router'
 import history from '../../services/history'
-import { HOME, LOGIN, GAME } from '../../util/routes'
-import Login from '../Login'
-import Home from '../Home'
+import { GAME } from '../../util/routes'
 import Game from '../Game'
 import Layout from '../Layout'
 
@@ -20,9 +18,7 @@ const App = ({ appMounted, appWillUnmount, t }) => {
       <Router history={history}>
         <Switch>
           <Layout>
-            <Route exact path={HOME} component={Home} />
             <Route exact path={GAME} component={Game} />
-            <Route exact path={LOGIN} component={Login} />
           </Layout>
         </Switch>
       </Router>

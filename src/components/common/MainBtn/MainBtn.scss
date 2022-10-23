@@ -1,37 +1,45 @@
-/* CSS */
+// /* CSS */
+// .main-btn {
+//   z-index: 5;
+//   background-color: #fbeee0 !important;
+//   border: 2px solid #e99618;
+//   border-radius: 30px;
+//   box-shadow: #e99618 4px 4px 0 0;
+//   color: #e99618;
+//   cursor: pointer;
+//   display: inline-block;
+//   font-family: 'CasinoItalic';
+//   font-weight: 600;
+//   font-size: 18px;
+//   padding: 0 18px;
+//   line-height: 50px;
+//   text-align: center;
+//   text-decoration: none;
+//   user-select: none;
+//   -webkit-user-select: none;
+//   touch-action: manipulation;
+// }
+
+// .main-btn:hover {
+//   background-color: #fff;
+// }
+
+// .main-btn:active {
+//   box-shadow: #e99618 2px 2px 0 0;
+//   transform: translate(2px, 2px);
+// }
+
+// @media (min-width: 768px) {
+//   .main-btn {
+//     min-width: 120px;
+//     padding: 0 25px;
+//   }
+// }
+
 .main-btn {
-  z-index: 5;
-  background-color: #fbeee0 !important;
-  border: 2px solid #e99618;
-  border-radius: 30px;
-  box-shadow: #e99618 4px 4px 0 0;
-  color: #e99618;
-  cursor: pointer;
-  display: inline-block;
-  font-family: 'CasinoItalic';
-  font-weight: 600;
-  font-size: 18px;
-  padding: 0 18px;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  background-color: #561e21 !important;
+  margin-bottom: 10px;
 }
-
 .main-btn:hover {
-  background-color: #fff;
-}
-
-.main-btn:active {
-  box-shadow: #e99618 2px 2px 0 0;
-  transform: translate(2px, 2px);
-}
-
-@media (min-width: 768px) {
-  .main-btn {
-    min-width: 120px;
-    padding: 0 25px;
-  }
+  background-color: #373e47 !important;
 }

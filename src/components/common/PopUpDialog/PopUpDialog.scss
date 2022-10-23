@@ -1,0 +1,62 @@
+.pop-up-dialog {
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  right: unset;
+  bottom: unset;
+  top: 400px !important;
+  left: unset;
+
+  .paper {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    background: #ffffff00;
+    box-shadow: 0px 12px 24px rgba(74, 74, 74, 0.2),
+      0px 0px 1px rgba(74, 74, 74, 0.1);
+    border-radius: 3px;
+    outline: none;
+  }
+  .menu-bar {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .close-btn {
+    margin: 19px 25px 0 0;
+    padding: 0;
+    &:hover {
+      background-color: white;
+    }
+    & > span {
+      color: white;
+    }
+  }
+  .close-icon {
+    font-size: 13px;
+    fill: #4a4a4a;
+  }
+  .main-container {
+    position: relative;
+    text-align: -webkit-center;
+    .txt-container {
+      width: 200px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 32px;
+      right: 109px;
+    }
+    .main-txt {
+      color: #4a4a4a;
+
+      font-size: 26px;
+      transform: rotate(344deg);
+    }
+  }
+  .ribbon {
+    width: 300px;
+  }
+}

@@ -3,6 +3,7 @@
   height: 100%;
 }
 .Wrapper {
+  text-align: -webkit-center;
   margin: 70px 1px 1px 1px;
   min-height: calc(100vh - 73px - 75px);
   padding: 0 60px;

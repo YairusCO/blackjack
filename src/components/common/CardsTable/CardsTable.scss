@@ -1,0 +1,26 @@
+.cards-table {
+  margin-top: 40px;
+  .card-table-btn {
+    button {
+      margin: 10px 20px 20px 40px;
+    }
+  }
+  .amount {
+    font-family: 'times';
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+  .div-svg {
+    margin: 10px;
+    svg {
+      width: 124px;
+      max-height: 166px;
+    }
+    .png {
+      width: 124px;
+      height: 167px;
+    }
+  }
+}

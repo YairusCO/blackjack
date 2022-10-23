@@ -6,7 +6,15 @@ import green from '../../../assets/green20chip.png'
 import red from '../../../assets/red50chip.png'
 import gold from '../../../assets/gold-chip.png'
 
-const InitialDeal = ({ playerBank, playerDealCount, addMoney }) => {
+const InitialDeal = ({
+  playerBank,
+  playerDealCount,
+  addMoney,
+  isInitialDeal,
+  getDeal,
+  newGame,
+  resetCount,
+}) => {
   return (
     <Grid container className="initial-deal">
       <Grid item container className="initial-deal-top">
@@ -17,14 +25,28 @@ const InitialDeal = ({ playerBank, playerDealCount, addMoney }) => {
             handleClick={() => addMoney(playerBank)}
             classname={'all-in'}
           />
+          <MainBtn
+            disabled={!!playerDealCount}
+            text={'Deal'}
+            handleClick={() => {
+              newGame()
+              getDeal(!isInitialDeal)
+            }}
+          />
         </Grid>
         <Grid>
-          <Button className="count-btn">
+          <Button
+            className="count-btn"
+            onClick={() => {
+              resetCount()
+            }}
+          >
             <Typography className="count-txt">{playerDealCount}</Typography>
             <img className="count-chip" src={gold} alt="gold" />
           </Button>
         </Grid>
       </Grid>
+
       <Grid item>
         <Button onClick={() => addMoney(20)}>
           <img className="chip" src={green} alt="green" />
